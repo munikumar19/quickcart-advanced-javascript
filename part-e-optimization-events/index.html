@@ -1,80 +1,52 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>QuickCart - JavaScript Optimization</title>
-
+    <title>QuickCart</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
     <header>
-
         <h1>QuickCart</h1>
-
-        <p>Advanced JavaScript Practical Assignment</p>
-
     </header>
-
 
     <main>
 
-
         <section class="container">
-
             <h2>Task 1: Debouncing</h2>
-
             <p>
                 Search for products. The search runs after
                 you stop typing for 500 milliseconds.
             </p>
-
             <input
                 type="text"
                 id="searchInput"
                 placeholder="Search products..."
             >
-
             <p id="searchResult">Search results will appear here.</p>
-
         </section>
 
-
-
         <section class="container">
-
             <h2>Task 2: Throttling</h2>
-
             <p>
                 Scroll the page to see the throttled scroll event.
                 It runs at most once every 1000 milliseconds.
             </p>
-
             <p id="scrollResult">Scroll events: 0</p>
-
         </section>
 
-
-
         <section class="container">
-
             <h2>Task 3: Memoization</h2>
-
             <p>
                 Calculate the discount. Repeating the same
                 values will use the cached result.
             </p>
 
             <label for="priceInput">Product Price:</label>
-
             <input
                 type="number"
                 id="priceInput"
@@ -82,7 +54,6 @@
             >
 
             <label for="discountInput">Discount Percentage:</label>
-
             <input
                 type="number"
                 id="discountInput"
@@ -94,70 +65,43 @@
             </button>
 
             <p id="discountResult">Result will appear here.</p>
-
         </section>
 
-
-
         <section class="container">
-
             <h2>Task 4: Event Bubbling and Delegation</h2>
-
             <p>
                 Click a Remove button to remove a product.
             </p>
 
             <div id="productList">
-
                 <div class="product-item">
-
                     <span>Laptop - ₹50,000</span>
-
-                    <button class="remove-button">
+                    <button type="button" class="remove-button">
                         Remove
                     </button>
-
                 </div>
 
-
                 <div class="product-item">
-
                     <span>Mouse - ₹1,000</span>
-
-                    <button class="remove-button">
+                    <button type="button" class="remove-button">
                         Remove
                     </button>
-
                 </div>
-
 
                 <div class="product-item">
-
                     <span>Keyboard - ₹2,000</span>
-
-                    <button class="remove-button">
+                    <button type="button" class="remove-button">
                         Remove
                     </button>
-
                 </div>
-
             </div>
 
             <p id="eventResult">
                 Click a product's Remove button.
             </p>
-
         </section>
 
     </main>
-
-
-    <footer>
-
-        <p>QuickCart - Advanced JavaScript Assignment</p>
-
-    </footer>
-
 
     <script src="script.js"></script>
 
