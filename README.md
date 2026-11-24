@@ -12,23 +12,22 @@ QuickCart is an e-commerce order management system built with Modern JavaScript 
 
 ## Project Structure
 
-```text
 quickcart-advanced-javascript/
 ├── part-a-objects-classes/
-│   └── products.js              # Prototypes, ES6 classes & checkout syntax[cite: 4, 11]
+│ └── products.js # Prototypes, ES6 classes & checkout syntax[cite: 4, 11]
 ├── part-b-array-methods/
-│   └── shopping-cart.js         # Array methods, Map, Set, freeze & seal[cite: 5, 6, 11]
+│ └── shopping-cart.js # Array methods, Map, Set, freeze & seal[cite: 5, 6, 11]
 ├── part-c-json-debugging/
-│   └── json-handling.js         # JSON serialization & output debugging[cite: 6, 7, 11]
+│ └── json-handling.js # JSON serialization & output debugging[cite: 6, 7, 11]
 ├── part-d-asynchronous/
-│   └── order-processing.js      # Event loop, async flows & combinators[cite: 7, 8, 11]
+│ └── order-processing.js # Event loop, async flows & combinators[cite: 7, 8, 11]
 ├── part-e-optimization-events/
-│   ├── index.html               # DOM interface for optimization & events[cite: 11]
-│   ├── script.js                # Debounce, throttle, memoization & delegation
-│   └── style.css                # Styling for Part E[cite: 11]
+│ ├── index.html # DOM interface for optimization & events[cite: 11]
+│ ├── script.js # Debounce, throttle, memoization & delegation
+│ └── style.css # Styling for Part E[cite: 11]
 ├── part-f-integration/
-│   └── quickcart.js             # Final QuickCart order summary integration
-└── README.md                    # Project documentation & screenshots[cite: 11]
+│ └── quickcart.js # Final QuickCart order summary integration
+└── README.md # Project documentation & screenshots[cite: 11]
 
 Part E (DOM Features):
 Open part-e-optimization-events/index.html in a browser and open DevTools (F12 > Console) to test search debouncing, scroll throttling, memoization caching, and event bubbling/delegation[cite: 9, 10, 11].
@@ -46,5 +45,4 @@ Part D – Asynchronous JavaScript & Promises (part-d-asynchronous/order-process
 Part E – Performance Optimization & DOM Events (part-e-optimization-events/):
 Implemented a 500 ms debounced search input, a 1000 ms throttled scroll counter, a memoized calculateDiscount() function using closures, and product removal using event bubbling, event.stopPropagation(), and parent container event delegation.
 
-Part F – Final Real-Time Integration Challenge (part-f-integration/quickcart.js): Combined a Product class, destructuring, map(), filter(), reduce(), Set, Map, Object.freeze(), JSON.stringify(), and async/await with try/catch to dynamically generate Rahul's QuickCart order summary[cite: 10, 11].
-```
+Part F – Final Real-Time Integration Challenge (part-f-integration/quickcart.js): Combined a Product class, destructuring, map(), filter(), reduce(), Set, Map, Object.freeze(), JSON.stringify(), and async/await with try/catch to dynamically generate Rahul's QuickCart order summary.
